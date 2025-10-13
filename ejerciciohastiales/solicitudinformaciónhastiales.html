@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <form action="amsterdam@ie.com" >
+            <legend>Datos personales</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text"name="nombre" maxlength="50" required></input>
+            <br>
+            <br>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text"name="apellidos" maxlength="50" required></input>
+            <br>
+            <br>
+            <label for="password">Contraseña:</label>
+            <input type="password" name="password" id="password"  required>
+            <br>
+            <br>
+            <label for="correo">Correo:</label>
+            <input type="text"name="correo"></input>
+            <br>
+            <br>
+            <label for="telefono">Teléfono:</label>
+            <input type="text"name="telefono"></input>
+            <br>
+            <br>
+            <label for="edad">Edad:</label>
+            <label><input type="radio" name="edad" value="menor" required> Menor de 18 años</label>
+            <label><input type="radio" name="edad" value="18-38"> Entre 18 y 38 años</label>
+            <label><input type="radio" name="edad" value="mayor"> Mayor de 38 años</label>
+            <br>
+            <br>
+            <label for="sexo">Sexo:</label>
+            <input type="radio" name="hombre" id="sexo" value="sexo" checked>
+            <label for="hombre">hombre</label>
+            <input type="radio" name="mujer" id="sexo" value="sexo">
+            <label for="mujer">mujer</label>
+            <br>
+            <label for="Solicitar">Solicitar mas informacion:</label><select name="Solicitar" id="Solicitar">
+                <datalist id="opciones" >
+                    <option value="pico">pico</option>
+                    <option value="escalonado">escalonado</option>
+                    <option value="campana" >campana</option>
+                </datalist>
+            </select>
+            <br>
+            <textarea id="descripcion" name="descripcion" rows="6" maxlength="160"></textarea>
+            <br>
+            <label><input type="checkbox" name="normativa" value="si" required> Acepto que se traten mis datos conforme a la normativa vigente de protección de datos.</label>
+            <br>
+            <input type="submit" value="Enviar">
+            
+    </fieldset>
+    </form>
+</body>
+</html>
