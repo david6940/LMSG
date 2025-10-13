@@ -6,19 +6,15 @@
     <title>Document</title>
 </head>
 <body>
+    <form action="amsterdam@ie.com">
     <fieldset>
-        <form action="amsterdam@ie.com" >
             <legend>Datos personales</legend>
             <label for="nombre">Nombre:</label>
-            <input type="text"name="nombre" maxlength="50" required></input>
+            <input type="text"name="nombre" maxlength="30" required></input>
             <br>
             <br>
             <label for="apellidos">Apellidos:</label>
-            <input type="text"name="apellidos" maxlength="50" required></input>
-            <br>
-            <br>
-            <label for="password">Contraseña:</label>
-            <input type="password" name="password" id="password"  required>
+            <input type="text"name="apellidos" maxlength="30" required></input>
             <br>
             <br>
             <label for="correo">Correo:</label>
@@ -41,7 +37,7 @@
             <input type="radio" name="mujer" id="sexo" value="sexo">
             <label for="mujer">mujer</label>
             <br>
-            <label for="Solicitar">Solicitar mas informacion:</label><select name="Solicitar" id="Solicitar">
+            <label for="solicitar">Solicitar mas informacion:</label><select name="solicitar" id="solicitar">
                 <datalist id="opciones" >
                     <option value="pico">pico</option>
                     <option value="escalonado">escalonado</option>
@@ -54,7 +50,6 @@
             <label><input type="checkbox" name="normativa" value="si" required> Acepto que se traten mis datos conforme a la normativa vigente de protección de datos.</label>
             <br>
             <input type="submit" value="Enviar">
-            
     </fieldset>
     </form>
 </body>
