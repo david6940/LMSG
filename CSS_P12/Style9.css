@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.grid-ej9 {
+  display: grid;
+  grid-template-columns: repeat(2, 180px);
+  grid-template-rows: repeat(3, 60px);
+  gap: 2px;
+  width: max-content;
+}
+
+.grid-ej9 div {
+  background-color: #6f8592;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

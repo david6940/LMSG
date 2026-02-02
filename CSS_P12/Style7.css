@@ -1,0 +1,37 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 600px;
+}
+
+.c1 {
+  order: 6;
+}
+
+.c2 {
+  order: 1;
+}
+
+.c3 {
+  order: 2;
+}
+
+.c4 {
+  order: 3;
+}
+
+.c5 {
+  order: 4;
+}
+
+.c6 {
+  order: 5;
+}
+
+.grid div {
+  background: #6f818c;
+  color: white;
+  border: 2px solid white;
+  padding: 30px;
+  text-align: center;
+}

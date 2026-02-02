@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 600px;
+}
+
+.grid div {
+  background: #6f818c;
+  color: white;
+  border: 2px solid white;
+  padding: 30px;
+  text-align: center;
+}

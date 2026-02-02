@@ -1,0 +1,21 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 600px;
+}
+
+.c1 {
+  grid-column: 1 / 4;
+}
+
+.c2 {
+  grid-row: 2 / 4;
+}
+
+.grid div {
+  background: #6f818c;
+  color: white;
+  border: 2px solid white;
+  padding: 30px;
+  text-align: center;
+}
